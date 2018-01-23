@@ -28,4 +28,13 @@ public class Calculator {
 
         return result;
     }
+
+    public int sum(int a, int rest) {
+        int sum = a;
+        for (int b : rest) {
+            sum += b;
+        }
+
+        return sum;
+    }
 }
