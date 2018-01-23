@@ -28,4 +28,12 @@ public class Calculator {
 
         return result;
     }
+
+    public double squareRoot(double a) {
+        return Math.sqrt(a);
+    }
+
+    public double cubeRoot(double a) {
+        return Math.cbrt(a);
+    }
 }
